@@ -44,7 +44,7 @@ The message names the control (`CC6.3 access`). Missing reason and an expired da
 
 ## How a git rule differs from a PDF pack
 
-A PDF says “least privilege” and an assessor has to trust the sentence. This repo says the same idea as a rule that fails when `Action` is `*`. The reproduction step is `opa test ./...`. The artifact is the policy path plus the test output, not a signed PDF of the policy.
+A PDF says “least privilege” and an assessor has to trust the sentence. This repo says the same idea as a rule that fails when `Action` is `*`. The artifact is the policy path plus the test output, not a signed PDF of the policy.
 
 ## Companion repos
 
