@@ -18,6 +18,8 @@ Inputs are synthetic. Object name is `synthetic-object`. There is no customer bu
 
 A control id here is a filing label so an assessor can match an artifact to a row. A passing test does not mean a Trust Services Criterion is met.
 
+On this repository, `opa-test` is required to merge into `main`. Repository admins can bypass the ruleset to ship a reference fix. The same job runs on every push and pull request.
+
 ## What this is not
 
 - Not a policy PDF. The PDF describes an intent. This file denies a specific input, and `opa test` shows the deny message.
